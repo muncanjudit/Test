@@ -1,0 +1,144 @@
+html{ 
+    box-sizing: border-box;
+}
+nav{
+    height: 20rem;
+    background-color: rgb(212, 77, 47);
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 4.5rem;
+}
+p{
+    font-size: 2rem;
+    
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.9rem;
+}
+.nav__p--purpose{
+    font-size: 0.9rem;
+    align-self: flex-start;
+}
+.nav__title{
+    align-self: flex-start;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+.nav-link{
+    margin-left: 1rem;
+    color:white
+}
+.sign-link{
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+}
+.navbar-nav{
+    margin-right: 10%;
+    font-size: 0.9rem;
+}
+.button-forward{
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 8rem;
+    line-height: 2.5rem;
+    height: 3rem;
+    margin-top: -0.5rem;
+    text-align: center;
+}
+.button-forward:hover{
+    background-color: rgb(27, 147, 103);
+}
+.titled{
+    width: 7.9rem !important;
+    padding: 4px;
+}
+.forward__arrow{
+    margin-top: 0.1rem;
+    margin-left: 0.9rem;
+}
+.init-image{
+    width: 100%;
+    height: 60rem;
+    background-image: url("https://100forpurpose.org/wp-content/uploads/2025/07/hero-img-1.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 10rem;
+
+}
+.init-image__title{
+    margin: 12rem;
+    width: 40%;
+    color: white;
+}
+.about{
+    background-color: rgb(245, 243, 240); 
+    width: 100%;
+}
+.about__elements{
+    width: 64%;
+    margin-left: 18%;
+}
+.about__iframe{
+    margin-top: 10rem;
+    width: 100%;
+    height: 40rem;
+}
+.about__info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: black !important;
+    margin-top: 5rem;
+
+}
+.about__info__elements__text{
+    margin-left: 5rem;
+}
+.about__info__elements__buttons{
+    font-size:  2rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about__info__elements__buttons_share{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.about__link{
+    text-decoration: none;
+    color:black ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.about__info__elements__table{
+    background-color: white;
+    text-align: center;
+  
+}
+.about__info__elements__table_imgs{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
